@@ -1,25 +1,14 @@
                   # plant-watering-reminder-system
 IoT-based Plant Watering Reminder System using AWS IoT Core, Lambda, and SNS
 ---
- ### Structure:
-  plant-watering-reminder-system/
- ├── lambda/
- │   └── soil_moisture_check.py
- ├── report/
- │   └── Plant_Watering_Reminder_System_Report.pdf
- ├── images/
- │   └── architecture.png
- └── README.md
- 
   ### Sensors:
   *Sensor → IoT Core → Lambda → SNS → Email
 
   ### Lamda code:
+  * Here, I check the moisture value. If it is below 30, an email alert is sent.
   if moisture < 30:
     sns.publish(...)
-   * Here, I check the moisture value. If it is below 30, an email alert is sent.
-
-
+    
 ## 🔧 Implementation Steps
 
 ### Step 1: AWS Account Setup
