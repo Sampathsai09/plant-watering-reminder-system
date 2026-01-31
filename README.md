@@ -31,16 +31,6 @@ IoT-based Plant Watering Reminder System using AWS IoT Core, Lambda, and SNS
 - System worked in real time
 
 
-- ## 📐 Architecture Diagram
-
-The architecture of the Plant Watering Reminder System follows a serverless and event-driven cloud model.
-
-### 🔄 Architecture Explanation
-- The soil moisture sensor (simulated using MQTT) sends data to AWS IoT Core.
-- AWS IoT Core receives and processes the incoming data securely.
-- An IoT Rule triggers the AWS Lambda function automatically.
-- AWS Lambda checks the soil moisture threshold.
-- If the moisture level is low, Amazon SNS sends an email alert to the user.
 
 
 
