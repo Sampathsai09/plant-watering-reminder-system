@@ -6,6 +6,7 @@ IoT-based Plant Watering Reminder System using AWS IoT Core, Lambda, and SNS
 
   ### Lamda code:
   * Here, I check the moisture value. If it is below 30, an email alert is sent.
+    
   if moisture < 30:
     sns.publish(...)
     
